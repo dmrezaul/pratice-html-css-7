@@ -1,4 +1,4 @@
-/* DEFULT CSS */
+/* DEFAULT CSS */
 
 *{
     padding:0;
@@ -112,12 +112,13 @@ body{
     position:absolute;
     left:0;
     top:100%;
-    width:250px;
+    width:190px;
     background:#fff;
 
     opacity:0;
     visibility:hidden;
     transition: .8s;
+    z-index:10;
     
 }
 .main-menu ul li:hover ul{
@@ -125,3 +126,54 @@ body{
     visibility:visible;
 }
 
+/* BANNER SECTION */
+
+.banner-section{
+    background: url("picture/mbr-4\(3\).jpg")no-repeat center center;
+    background-size:cover;
+    padding:220px 0;
+    color:#fff;
+
+    position:relative;
+    z-index:9;
+
+}
+.banner-section::after{
+    content:"";
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    height:100%;
+    width:100%;
+
+    background: rgba(0, 0, 0, .4);
+    z-index: -1;
+
+}
+.banner-content{
+
+}
+.banner-content h3{
+    font-size:30px;
+    font-weight:200px;
+}
+.banner-content h2{
+    font-size:60px;
+    padding:10px 0;
+    font-weight:300px;
+}
+.default-btn{
+    color:#7d7d7d;
+    padding:15px 20px;
+    background:#fff;
+    display:inline-block;
+    font-size:18px;
+    font-weight:300px;
+    border-radius:5px;
+}
+.default-btn:hover{
+    color:#fff;
+    background:#6278DF;
+    transition: .4s;
+}
