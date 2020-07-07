@@ -207,7 +207,7 @@ body{
 
 .service-section{
     background:#FFFFFF;
-    padding:100px 0;
+    padding:45px 0;
 }
 .service-section h2{
     font-size:60px;
@@ -246,9 +246,187 @@ body{
 .service-content h3{
     font-size:25px;
     font-weight:500;
-    margin-bottom:30px;
+    margin-bottom:20px;
 }
 .service-content p{
     font-size:20px;
     color:#987698;
 }
+
+/*PRICING SECTION*/
+
+.pricing-section{
+
+}
+
+.pricing-section-title{
+    background:#F7F9FF;
+    padding:50px 0;
+}
+.pricing-section-title h1{
+    font-size:60px;
+    font-weight:400;
+    margin-bottom:15px;
+}
+.pricing-section-title p{
+    color:#9D99C9;
+    font-size:24px;
+
+}
+
+/*PRICING TABLE ITEM SECTION*/
+
+.pricing-table-items{
+    
+}
+
+.pricing-table-item{
+    width:31.3%;
+    margin-right:2%;
+    background:#fff;
+    box-shadow:3px 4px 30px 0 rgba(98, 120, 223,.1); 
+}
+.pricing-table-item nth-child(3){
+    margin-right:0;
+}
+.pricing-heading{
+    padding:40px;
+    border-bottom:1px solid black;
+    line-height:1.5;
+}
+.pricing-content{
+    padding:30px;
+}
+
+.pricing-heading h4{
+    font-size:25px;
+    font-weight:500;
+}
+.pricing-heading h1{
+    font-size:40px;
+    margin:25px 0;
+}
+
+.pricing-heading h1 span{
+    font-size:21px;
+}
+.pricing-heading h5{
+    font-size:25px;
+    font-weight:450;
+    margin-bottom:10px;
+}
+.pricing-heading p{
+    font-size:20px;
+    color:#d#FFFFFF;
+}
+.pricing-content{
+
+}
+.pricing-content ul{
+    list-style:none;
+}
+.pricing-content ul span{
+    display:inline-block;
+    font-size:33px;
+    color:#6278DF;
+    width:60px;
+}
+.pricing-content ul li{
+    margin:20px 0;
+    color:#A7819A;
+    font-size:20px;
+    margin:20px;
+}
+.pricing-btn{
+    box-shadow:3px 4px 30px 0 rgba(98, 120, 223,.2);
+    width:162px;
+    height:auto;
+    margin:auto;
+}
+
+.pricing-table-item:hover .pricing-heading{
+    background:#6278DF;
+    color:#fff;
+    transition: 0.4s;
+}
+
+/*TEAM SECTION*/
+
+.team-section{
+    padding:50px 0;
+    
+}
+.team-members{
+    margin-top:50px;
+}
+.all-member{
+    width:23%;
+    margin-right:2%;
+    background:#fff;
+    box-shadow:3px 4px 30px 0 rgba(98, 120, 223,.2);
+}
+.all-member img{
+    width:100%;
+    border-radius:10px 10px 0 0;
+}
+.member-title{
+    padding:30px;
+}
+.member-title h3{
+    font-size:30px;
+    font-weight:400;
+    padding-bottom:13px;
+}
+.member-title p{
+    font-size:22px;
+    color:#A8A4C5;
+}
+
+/* SUBSCRIBE SECTION */
+
+.subscribe-title{
+    padding:100px 0;
+    background:#F7F9FF;
+}
+.subscribe-title p{
+    font-size:25px;
+    color:#B49279;
+}
+.subscribe-title h1{
+    font-size:47px;
+    font-weight:400;
+    margin-top:20px;
+    margin-bottom:25px;
+}
+
+/* SUBSCRIBE BUTTON*/
+
+.subscribe-section{
+
+}
+.input-subscribe-form{
+   
+}
+.subscribe{
+    padding:20px 30px;
+    font-size:20px;
+    border:1px solid #e4e4e4;
+    border-radius:10px;
+}
+.submit-btn{
+    background-color: #6278DF;
+    font-size:20px;
+    border:1px solid #e4e4e4;
+    border-radius:10px;
+    padding:20px 62px;
+    color:white;
+}
+.submit-btn:hover{
+    background:#fff;
+    color:#6278DF;
+    transition: .4s;
+}
+
+/*BLOG SECTION*/
+
+
