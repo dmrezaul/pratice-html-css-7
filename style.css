@@ -177,3 +177,78 @@ body{
     background:#6278DF;
     transition: .4s;
 }
+
+/* BANNER BOTTOM SECTION */
+
+.banner-bottom-section{
+    background:#F7F9FF;
+    padding:100px 0;
+}
+.video-left{
+    width:48%;
+}
+.text-right{
+    width:48%;
+}
+.text-right h3{
+    font-size:36px;
+    font-weight:200px;
+    margin-bottom:40px;
+    text-align:left;
+}
+.text-right p{
+    color:#A78687;
+    font-size:20px;
+    line-height:1.5;
+    text-align:left;
+}
+
+/*SERVICE SECTION*/
+
+.service-section{
+    background:#FFFFFF;
+    padding:100px 0;
+}
+.service-section h2{
+    font-size:60px;
+    margin-bottom:30px;
+}
+.service-section p{
+    font-size:26px;
+    color:#877687;
+    margin-bottom:60px;
+}
+
+/* SERVICE BOX SECTION */
+
+.service-box{
+    width:31%;
+    box-shadow: 4px 4px 20px 0 rgba(0,0,0,.1);
+    margin-right:2%;
+    margin-bottom:25px;
+    box-sizing:border-box;
+    padding:35px;
+    
+}
+.service-icon{
+    width:60px;
+    float:left;
+    min-height:110px;
+    font-size:40px;
+    color:#6278DF;
+    margin-right:5px;
+}
+
+.service-content{
+
+}
+
+.service-content h3{
+    font-size:25px;
+    font-weight:500;
+    margin-bottom:30px;
+}
+.service-content p{
+    font-size:20px;
+    color:#987698;
+}
