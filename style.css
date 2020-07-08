@@ -417,6 +417,7 @@ body{
     font-size:20px;
     border:1px solid #e4e4e4;
     border-radius:10px;
+    box-sizing:border-box;
 }
 .submit-btn{
     background-color: #6278DF;
@@ -536,7 +537,7 @@ body{
 /*CONTACT SECTION*/
 
 .contact-section{
-    padding:100px 0;
+    padding:20px 0;
 }
 .content-row{
 
@@ -549,4 +550,36 @@ body{
 }
 .footer{
 
+}
+
+/*FOOTER CONTACT FORM*/
+
+.footer-contact-form .w100{
+    width:100%;
+}
+.footer-contact-form .w50{
+    width:48%;
+}
+
+.footer-contact-form .subscribe{
+    margin-bottom: 20px;
+}
+.footer-contact-form textarea{
+    height:200px;
+}
+.contact-right-form h4{
+    font-size:40px;
+    font-weight:400;
+    margin-bottom:20px;
+}
+.contact-right-form p{
+    font-size:20px;
+    color:#767676;
+    line-height:1.8em;
+}
+
+.footer p{
+    padding:20px 0;
+    font-size:20px;
+    margin-top:5px;
 }
